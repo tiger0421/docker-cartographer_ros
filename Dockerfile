@@ -1,5 +1,6 @@
 FROM tiger0421/ros-gpu-gazebo:1.0-glvnd-runtime-ubuntu18.04
 
+WORKDIR /root
 RUN apt update && \
 	apt upgrade -y && \
 	apt install -y \
